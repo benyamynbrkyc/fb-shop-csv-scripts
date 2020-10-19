@@ -1,0 +1,16 @@
+{
+  "name": "hsk-getURLs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "imagekit": "^3.1.1"
+  }
+}
