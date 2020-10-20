@@ -29,17 +29,17 @@ const writeToCSV = (csvPath, txtPath) => {
   }
   console.log(array.length);
 
-  for (let i = 42; i < array.length + 42; i++) {
+  for (let i = 52; i < array.length + 52; i++) {
     data.push({
       id: i + 1,
-      title: 'Mahrama',
-      description: 'Zenske Mahrame',
+      title: 'Tunika',
+      description: 'Tunike',
       availability: 'in stock',
       inventory: 1,
       condition: 'new',
       price: 'CHANGE',
       link: 'https://www.facebook.com/Hijab-Shop-Kaftan-100956541806389/',
-      image_link: array[i - 42],
+      image_link: array[i - 52],
       brand: 'Hijab Shop Kaftan'
     });
   }
